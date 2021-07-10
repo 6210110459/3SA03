@@ -10,7 +10,7 @@ const prepareStateFromWord = given_word =>{
         chars,
         attempt: 1,
         guess: '',
-        completed: false
+        completed: false,
     }
 }
 
@@ -41,6 +41,7 @@ export default function WordCard(props){
                 state.chars.map((c, i) => 
                     <CharacterCard value={c} key={i} activationHandler={activationHandler} attempt={state.attempt}/>
                     ) 
+                
             }
         </div>
     )
