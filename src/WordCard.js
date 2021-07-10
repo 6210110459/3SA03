@@ -35,6 +35,8 @@ export default function WordCard(props){
         }
     }
 
+    const fip = state.completed ? " yeah! " :" "
+
     return (
         <div>
             {
