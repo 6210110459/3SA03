@@ -9,7 +9,7 @@ const photo = ["http://www.thaifly.com/image/data/img_thaifly/article/england/in
 function App() {
   return (
   <div>
-    <center> <img src={photo[i]} width="500px" height="350px"/></center>
+    <center><img src={photo[i]} width="500px" height="350px"/></center>
     <center><WordCard value={word[i]}/></center>
   </div>
   );
